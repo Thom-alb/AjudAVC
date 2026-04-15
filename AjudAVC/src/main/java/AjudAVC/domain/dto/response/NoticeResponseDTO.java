@@ -1,4 +1,12 @@
 package AjudAVC.domain.dto.response;
 
-public record NoticeResponseDTO() {
-}
+import java.time.LocalDateTime;
+
+public record NoticeResponseDTO(
+        Integer id,
+        String titulo,
+        String conteudo,
+        String categoria,
+        String nomeAutor,
+        LocalDateTime dataCriacao
+) {}

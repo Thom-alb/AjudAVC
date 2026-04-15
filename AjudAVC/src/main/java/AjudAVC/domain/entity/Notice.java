@@ -23,7 +23,7 @@ public class Notice {
     @Column(columnDefinition = "TEXT", nullable = false)
     private String conteudo;
 
-    // Sugestão de categorias: URGENTE, ROTINA, POSITIVO, DUVIDA
+    // Ideias de categorias: URGENTE, ROTINA, POSITIVO, DUVIDA
     @Column(nullable = false)
     private String categoria;
 
